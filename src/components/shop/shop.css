@@ -1,0 +1,10 @@
+.shopping-list img {
+    
+    flex-direction: row;
+    max-height: 250px;
+    padding:25px;
+}
+.shopping-list {
+    display: flex;
+    justify-content: center;
+}

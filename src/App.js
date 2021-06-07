@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+
+
+import  ShoppingList from './components/shop/shop.js';
+
+import dataSet from './assets/cleaners.json';
+import ShoppingCart from './components/cart/cart.js';
 
 function App() {
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ShoppingList Items = {dataSet}/>
+      <h2>Your Shopping Basket</h2>
+      <ShoppingCart Items = {dataSet}/> 
     </div>
   );
 }
