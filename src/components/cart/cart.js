@@ -51,13 +51,13 @@ function ShoppingCart (props) {
                     <div>Quantity</div>
                     <div>Price</div>
                     <div>Total</div>
-                    <div>Actions</div>
+                    <div></div>
                 </div>
                 
                     {itemsIterated}
                 <tr className='total-area'>
-                    <div className='total-number'>Total:</div>
-                    <div className='total-value'> {(itemsTotal).toFixed(2)} </div>
+                    <div className='total-number'>Total: </div>
+                    <div className='total-value'> {(itemsTotal).toFixed(2)}$ </div>
                 </tr>
                 
         </div> 

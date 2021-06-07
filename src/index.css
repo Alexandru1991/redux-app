@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #b5d9d2;
 }
 
 code {
@@ -14,5 +15,8 @@ code {
 
 #root {
   max-width: 900px;
-  margin:0 auto;
+  margin:15px auto;
+  background-color: white;
+  padding: 15px;
+  border-radius: 15px;
 }
