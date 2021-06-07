@@ -11,6 +11,7 @@ const Button = styled.a`
   text-align:center;
   border: 2px solid white;
   font-weight:bold;
+  cursor:pointer;
   background: ${props => props.primary ? '#e1de00' : '#183a46' };
   color: ${props => props.primary ? '#183a46' : 'white' }
   
